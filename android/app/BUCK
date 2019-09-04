@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.podcast_app",
+    package = "com.podcast",
 )
 
 android_resource(
     name = "res",
-    package = "com.podcast_app",
+    package = "com.podcast",
     res = "src/main/res",
 )
 
